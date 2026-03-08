@@ -4,7 +4,7 @@ import { getDiagramList } from '@/lib/diagrams'
 export default function HomePage() {
   const diagrams = getDiagramList()
   return (
-    <div style={{ padding: '32px', maxWidth: '900px' }}>
+    <div style={{ flex: 1, overflowY: 'auto', padding: '32px', maxWidth: '900px' }}>
       <h1 style={{ fontSize: '28px', fontWeight: '700', marginBottom: '8px', color: '#1a1a2e' }}>
         System Design Diagrams
       </h1>
